@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{58249A5B-17DB-4A7C-BDFC-30F40AF5FA64}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Package</RootNamespace>
+    <AssemblyName>Sims3</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sims3WorkshopSDK" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BinaryReaderBE.cs" />
+    <Compile Include="DataFile.cs" />
+    <Compile Include="DBPF.cs" />
+    <Compile Include="DBPFEntry.cs" />
+    <Compile Include="DBPFFactory.cs" />
+    <Compile Include="FileIsEncryptedException.cs" />
+    <Compile Include="Geometry\RotationQuaternion.cs" />
+    <Compile Include="Geometry\TranslationMatrix.cs" />
+    <Compile Include="Helper\BigInteger.cs" />
+    <Compile Include="Helper\Compression.cs" />
+    <Compile Include="Helper\CompressionLevel.cs" />
+    <Compile Include="Helper\CRC.cs" />
+    <Compile Include="Helper\Crc16.cs" />
+    <Compile Include="Helper\CRCParameters.cs" />
+    <Compile Include="Helper\CRCStandard.cs" />
+    <Compile Include="Helper\FNV322.cs" />
+    <Compile Include="Helper\FNV642.cs" />
+    <Compile Include="Helper\FNVHash.cs" />
+    <Compile Include="Helper\HashAlgorithmParameters.cs" />
+    <Compile Include="Helper\Hashes.cs" />
+    <Compile Include="Helper\Helper.cs" />
+    <Compile Include="Helper\LocalizedString.cs" />
+    <Compile Include="Helper\NumberHelpers.cs" />
+    <Compile Include="Helper\PCompression.cs" />
+    <Compile Include="Helper\SimsCrc64.cs" />
+    <Compile Include="Helper\StringHelpers.cs" />
+    <Compile Include="Helper\UserVerification.cs" />
+    <Compile Include="ImageResource\DDS.cs" />
+    <Compile Include="ImageResource\DXT5LRLE.cs" />
+    <Compile Include="ImageResource\DXT5RLE2.cs" />
+    <Compile Include="ImageResource\DXT5RLES.cs" />
+    <Compile Include="ImageResource\DXTFormat.cs" />
+    <Compile Include="ImageResource\GIF.cs" />
+    <Compile Include="ImageResource\JPEG.cs" />
+    <Compile Include="ImageResource\PNG.cs" />
+    <Compile Include="ImageResource\SOMEIMAGE.cs" />
+    <Compile Include="ImageResource\TextureResource.cs" />
+    <Compile Include="PackagedFile.cs" />
+    <Compile Include="PackagedFileFactory.cs" />
+    <Compile Include="PackagedFileType.cs" />
+    <Compile Include="PackageUtil.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SharedFiles\CASP.cs" />
+    <Compile Include="SharedFiles\Clip.cs" />
+    <Compile Include="SharedFiles\ICasp.cs" />
+    <Compile Include="SharedFiles\IGTIndex.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\BONDEntry.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\FTPT.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\GEOM.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\IBUF.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\IRCOLItem.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\LITE.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\MATD.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\MLOD.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\MODL.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\MTST.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\RCOLFileEntry.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\RCOLItem.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\RCOLItemType.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\RSLT.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\SKIN.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\S_Play.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\S_SM.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\UNKRCOLItem.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\VBUF.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\VertexDeclaration.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\VertexEntryUsage.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\VertexFormatEntry.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\VPXY.cs" />
+    <Compile Include="SharedFiles\InternalRCOL\VRTF.cs" />
+    <Compile Include="SharedFiles\IObjd.cs" />
+    <Compile Include="SharedFiles\ITGIndex.cs" />
+    <Compile Include="SharedFiles\OBJD.cs" />
+    <Compile Include="SharedFiles\RCOL.cs" />
+    <Compile Include="SharedFiles\RIG.cs" />
+    <Compile Include="SharedFiles\RSLTResource.cs" />
+    <Compile Include="SharedFiles\SKINTONE.cs" />
+    <Compile Include="SharedFiles\S_CLIP\ActorSlotEntry.cs" />
+    <Compile Include="SharedFiles\S_CLIP\ClipEvent.cs" />
+    <Compile Include="SharedFiles\S_CLIP\Frame.cs" />
+    <Compile Include="SharedFiles\S_CLIP\FrameDataFlags.cs" />
+    <Compile Include="SharedFiles\S_CLIP\FrameDataFormat.cs" />
+    <Compile Include="SharedFiles\S_CLIP\FrameDataType.cs" />
+    <Compile Include="SharedFiles\S_CLIP\FrameType.cs" />
+    <Compile Include="SharedFiles\S_CLIP\Rule.cs" />
+    <Compile Include="SharedFiles\TGIIndex.cs" />
+    <Compile Include="SimCity\RW4.cs" />
+    <Compile Include="SimCity\_00b1b104.cs" />
+    <Compile Include="Sims2Files\CRES.cs" />
+    <Compile Include="Sims2Files\GMDC.cs" />
+    <Compile Include="Sims2Files\GMND.cs" />
+    <Compile Include="Sims2Files\RCOL.cs" />
+    <Compile Include="Sims2Files\RCOLResource\cCompositionTreeNode.cs" />
+    <Compile Include="Sims2Files\RCOLResource\cDataListExtensions.cs" />
+    <Compile Include="Sims2Files\RCOLResource\cGeometryDataContainer.cs" />
+    <Compile Include="Sims2Files\RCOLResource\cGeometryNode.cs" />
+    <Compile Include="Sims2Files\RCOLResource\cImageData.cs" />
+    <Compile Include="Sims2Files\RCOLResource\cLightRefNode.cs" />
+    <Compile Include="Sims2Files\RCOLResource\cMaterialDefinition.cs" />
+    <Compile Include="Sims2Files\RCOLResource\cObjectGraphNode.cs" />
+    <Compile Include="Sims2Files\RCOLResource\cObjectGraphNodeExtension.cs" />
+    <Compile Include="Sims2Files\RCOLResource\cReferentNode.cs" />
+    <Compile Include="Sims2Files\RCOLResource\cResourceNode.cs" />
+    <Compile Include="Sims2Files\RCOLResource\cSGResource.cs" />
+    <Compile Include="Sims2Files\RCOLResource\cShape.cs" />
+    <Compile Include="Sims2Files\RCOLResource\cShapeRefNode.cs" />
+    <Compile Include="Sims2Files\RCOLResource\cTransformNode.cs" />
+    <Compile Include="Sims2Files\RCOLResource\Element.cs" />
+    <Compile Include="Sims2Files\RCOLResource\Group.cs" />
+    <Compile Include="Sims2Files\RCOLResource\IRCOLResource.cs" />
+    <Compile Include="Sims2Files\RCOLResource\Linkage.cs" />
+    <Compile Include="Sims2Files\RCOLResource\Model.cs" />
+    <Compile Include="Sims2Files\RCOLResource\RCOLResourceFactory.cs" />
+    <Compile Include="Sims2Files\RCOLResource\RCOLResourceType.cs" />
+    <Compile Include="Sims2Files\RCOLResource\Subset.cs" />
+    <Compile Include="Sims2Files\RCOLResource\UnknownRCOLResource.cs" />
+    <Compile Include="Sims2Files\SHPE.cs" />
+    <Compile Include="Sims2Files\TXMT.cs" />
+    <Compile Include="Sims2Files\TXTR.cs" />
+    <Compile Include="Sims2Package.cs" />
+    <Compile Include="Sims3Files\BGEO.cs" />
+    <Compile Include="Sims3Files\BOND.cs" />
+    <Compile Include="Sims3Files\BONE.cs" />
+    <Compile Include="Sims3Files\CASP.cs" />
+    <Compile Include="Sims3Files\CATA.cs" />
+    <Compile Include="Sims3Files\CCACHE.cs" />
+    <Compile Include="Sims3Files\Clothing.cs" />
+    <Compile Include="Sims3Files\COLL.cs" />
+    <Compile Include="Sims3Files\COLO.cs" />
+    <Compile Include="Sims3Files\CWALL.cs" />
+    <Compile Include="Sims3Files\CWST.cs" />
+    <Compile Include="Sims3Files\DCCache.cs" />
+    <Compile Include="Sims3Files\FENCE.cs" />
+    <Compile Include="Sims3Files\FirePlace.cs" />
+    <Compile Include="Sims3Files\FireplaceType.cs" />
+    <Compile Include="Sims3Files\FLOOR.cs" />
+    <Compile Include="Sims3Files\FPRT.cs" />
+    <Compile Include="Sims3Files\FTPTResource.cs" />
+    <Compile Include="Sims3Files\Geometry.cs" />
+    <Compile Include="Sims3Files\JAZZ.cs" />
+    <Compile Include="Sims3Files\LightResource.cs" />
+    <Compile Include="Sims3Files\MATDResource.cs" />
+    <Compile Include="Sims3Files\MDLR.cs" />
+    <Compile Include="Sims3Files\MLODModel.cs" />
+    <Compile Include="Sims3Files\MODLModel.cs" />
+    <Compile Include="Sims3Files\NameMap.cs" />
+    <Compile Include="Sims3Files\OBJD.cs" />
+    <Compile Include="Sims3Files\OBJK.cs" />
+    <Compile Include="Sims3Files\ObjXML.cs" />
+    <Compile Include="Sims3Files\PackageDescriptor.cs" />
+    <Compile Include="Sims3Files\PartitionBlockedFlags.cs" />
+    <Compile Include="Sims3Files\PartitionFlags.cs" />
+    <Compile Include="Sims3Files\PartitionToolModes.cs" />
+    <Compile Include="Sims3Files\PartitionType.cs" />
+    <Compile Include="Sims3Files\PatternList.cs" />
+    <Compile Include="Sims3Files\PossibleFileIndex.cs" />
+    <Compile Include="Sims3Files\Preset.cs" />
+    <Compile Include="Sims3Files\RAILING.cs" />
+    <Compile Include="Sims3Files\RIGRAW.cs" />
+    <Compile Include="Sims3Files\ROOF.cs" />
+    <Compile Include="Sims3Files\RoofFlags.cs" />
+    <Compile Include="Sims3Files\RoofType.cs" />
+    <Compile Include="Sims3Files\SCRIPT.cs" />
+    <Compile Include="Sims3Files\Set.cs" />
+    <Compile Include="Sims3Files\Sims3BuildItem.cs" />
+    <Compile Include="Sims3Files\SomeFile.cs" />
+    <Compile Include="Sims3Files\SomeFile_2.cs" />
+    <Compile Include="Sims3Files\SpeedTree.cs" />
+    <Compile Include="Sims3Files\STAIRS.cs" />
+    <Compile Include="Sims3Files\STBL.cs" />
+    <Compile Include="Sims3Files\TerrainPaint.cs" />
+    <Compile Include="Sims3Files\Test.cs" />
+    <Compile Include="Sims3Files\Text.cs" />
+    <Compile Include="Sims3Files\TSRModel.cs" />
+    <Compile Include="Sims3Files\TXTC.cs" />
+    <Compile Include="Sims3Files\UserToolFlags.cs" />
+    <Compile Include="Sims3Files\VerticalSpanType.cs" />
+    <Compile Include="Sims3Files\VisualProxy.cs" />
+    <Compile Include="Sims3Files\WALL.cs" />
+    <Compile Include="Sims3Files\WallStyle.cs" />
+    <Compile Include="Sims3Files\WallThickness.cs" />
+    <Compile Include="Sims3Files\XML.cs" />
+    <Compile Include="Sims3Files\XML_MB.cs" />
+    <Compile Include="Sims3Files\XML_MB_2.cs" />
+    <Compile Include="Sims3Package.cs" />
+    <Compile Include="Sims4Files\BuilditemCatalogCommon.cs" />
+    <Compile Include="Sims4Files\CASP.cs" />
+    <Compile Include="Sims4Files\CaspResource.cs" />
+    <Compile Include="Sims4Files\CCOL.cs" />
+    <Compile Include="Sims4Files\CFEN.cs" />
+    <Compile Include="Sims4Files\CFLOOR.cs" />
+    <Compile Include="Sims4Files\CFND.cs" />
+    <Compile Include="Sims4Files\CFRZ.cs" />
+    <Compile Include="Sims4Files\CombinedTuning.cs" />
+    <Compile Include="Sims4Files\CPLT.cs" />
+    <Compile Include="Sims4Files\CRAL.cs" />
+    <Compile Include="Sims4Files\CROOF.cs" />
+    <Compile Include="Sims4Files\CRTR.cs" />
+    <Compile Include="Sims4Files\CSTR.cs" />
+    <Compile Include="Sims4Files\CTPT.cs" />
+    <Compile Include="Sims4Files\CustomizableResource.cs" />
+    <Compile Include="Sims4Files\CWALL.cs" />
+    <Compile Include="Sims4Files\CXTR.cs" />
+    <Compile Include="Sims4Files\DeformMap.cs" />
+    <Compile Include="Sims4Files\Flags.cs" />
+    <Compile Include="Sims4Files\InternalRCOL\SIMMOD.cs" />
+    <Compile Include="Sims4Files\InternalRCOL\VPXYTS4.cs" />
+    <Compile Include="Sims4Files\KeyNameMap.cs" />
+    <Compile Include="Sims4Files\KeyNameMapEntry.cs" />
+    <Compile Include="Sims4Files\LDNB.cs" />
+    <Compile Include="Sims4Files\MLCO.cs" />
+    <Compile Include="Sims4Files\MTBL.cs" />
+    <Compile Include="Sims4Files\OBJD.cs" />
+    <Compile Include="Sims4Files\OBJDDef.cs" />
+    <Compile Include="Sims4Files\ObjectInfo.cs" />
+    <Compile Include="Sims4Files\PlatformShader.cs" />
+    <Compile Include="Sims4Files\PrecompiledShaders.cs" />
+    <Compile Include="Sims4Files\SamplerLinkSection.cs" />
+    <Compile Include="Sims4Files\SamplerState.cs" />
+    <Compile Include="Sims4Files\Shader.cs" />
+    <Compile Include="Sims4Files\ShaderDB.cs" />
+    <Compile Include="Sims4Files\ShaderParam.cs" />
+    <Compile Include="Sims4Files\Shaders.cs" />
+    <Compile Include="Sims4Files\ShaderSets.cs" />
+    <Compile Include="Sims4Files\SimData.cs" />
+    <Compile Include="Sims4Files\SimModifier.cs" />
+    <Compile Include="Sims4Files\Sims4Age.cs" />
+    <Compile Include="Sims4Files\Sims4BuildItem.cs" />
+    <Compile Include="Sims4Files\Sims4DeformationType.cs" />
+    <Compile Include="Sims4Files\Sims4Gender.cs" />
+    <Compile Include="Sims4Files\SomeTS4File.cs" />
+    <Compile Include="Sims4Files\StatePair.cs" />
+    <Compile Include="Sims4Files\StyleResource.cs" />
+    <Compile Include="Sims4Files\Trim.cs" />
+    <Compile Include="Sims4Files\VisualProxy.cs" />
+    <Compile Include="Sims4Files\WSO.cs" />
+    <Compile Include="Squish\DdsSquish.cs" />
+    <Compile Include="Squish\ImageLoader.cs" />
+    <Compile Include="TrayItem.cs" />
+    <Compile Include="TsrPack.cs" />
+    <Compile Include="TsrPackFile.cs" />
+    <Compile Include="UnknownDBPFEntry.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
