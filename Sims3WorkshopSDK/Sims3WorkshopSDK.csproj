@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{851DF12D-398A-41B8-818C-C029ADC068D3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Sims3WorkshopSDK</RootNamespace>
+    <AssemblyName>Sims3WorkshopSDK</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Channel.cs" />
+    <Compile Include="Classes\CreatorDetails.cs" />
+    <Compile Include="Classes\FNV32.cs" />
+    <Compile Include="Classes\FNV32_.cs" />
+    <Compile Include="Classes\FNV64.cs" />
+    <Compile Include="Classes\FNV64_.cs" />
+    <Compile Include="Classes\FNVHash.cs" />
+    <Compile Include="Classes\PositionNormalTexturedVertex.cs" />
+    <Compile Include="Classes\WorkshopPattern.cs" />
+    <Compile Include="Classes\WorkshopUtil.cs" />
+    <Compile Include="Classes\WSOFile.cs" />
+    <Compile Include="DBPFType.cs" />
+    <Compile Include="FastPixel.cs" />
+    <Compile Include="Float2.cs" />
+    <Compile Include="Forms\AlertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AlertForm.Designer.cs">
+      <DependentUpon>AlertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameVersion.cs" />
+    <Compile Include="ImageReskey.cs" />
+    <Compile Include="Interfaces\ExportArgument.cs" />
+    <Compile Include="Interfaces\ExportLocation.cs" />
+    <Compile Include="Interfaces\IAnimatedItem.cs" />
+    <Compile Include="Interfaces\IArtToolInfo.cs" />
+    <Compile Include="Interfaces\IBone.cs" />
+    <Compile Include="Interfaces\ICASPExport.cs" />
+    <Compile Include="Interfaces\ICASPImport.cs" />
+    <Compile Include="Interfaces\IDBPFEntry.cs" />
+    <Compile Include="Interfaces\IDBPFEntryEditor.cs" />
+    <Compile Include="Interfaces\IExporterInfo.cs" />
+    <Compile Include="Interfaces\IExportPlugin.cs" />
+    <Compile Include="Interfaces\IFileExportPlugin.cs" />
+    <Compile Include="Interfaces\IFileImportPlugin.cs" />
+    <Compile Include="Interfaces\IGamedata.cs" />
+    <Compile Include="Interfaces\IImportPlugin.cs" />
+    <Compile Include="Interfaces\IMaterial.cs" />
+    <Compile Include="Interfaces\IMaterialDatabase.cs" />
+    <Compile Include="Interfaces\IMeshEditor.cs" />
+    <Compile Include="Interfaces\IMeshEditorPlugin.cs" />
+    <Compile Include="Interfaces\ImportArgument.cs" />
+    <Compile Include="Interfaces\ImportLocation.cs" />
+    <Compile Include="Interfaces\IPatternTool.cs" />
+    <Compile Include="Interfaces\IPluginSettings.cs" />
+    <Compile Include="Interfaces\IProjectModel.cs" />
+    <Compile Include="Interfaces\IRIG.cs" />
+    <Compile Include="Interfaces\IRIGEditor.cs" />
+    <Compile Include="Interfaces\ISkeleton.cs" />
+    <Compile Include="Interfaces\IToolPlugin.cs" />
+    <Compile Include="Interfaces\ITransform.cs" />
+    <Compile Include="Interfaces\IWorkshop.cs" />
+    <Compile Include="Interfaces\IWorkshopExtension.cs" />
+    <Compile Include="Interfaces\IWorkshopProject.cs" />
+    <Compile Include="Interfaces\Lod.cs" />
+    <Compile Include="Interfaces\MaterialResult.cs" />
+    <Compile Include="Interfaces\ProjectType.cs" />
+    <Compile Include="Interfaces\UploadResult.cs" />
+    <Compile Include="IntTypeConverter.cs" />
+    <Compile Include="MyVertex.cs" />
+    <Compile Include="ObjArrayConverter.cs" />
+    <Compile Include="PatternResKey.cs" />
+    <Compile Include="PluginResult.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropResKey.cs" />
+    <Compile Include="ResKey.cs" />
+    <Compile Include="RunnableWorkshopExtensionForm.cs" />
+    <Compile Include="StreamVector3.cs" />
+    <Compile Include="StreamVector4.cs" />
+    <Compile Include="TextureResKey.cs" />
+    <Compile Include="VertexEntryType.cs" />
+    <Compile Include="VertexStreamWriter.cs" />
+    <Compile Include="WorkshopExtension.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\AlertForm.resources" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
