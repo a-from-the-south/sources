@@ -1,11 +1,3 @@
-# `a-from-the-south/sources`
-
-Every repository file on the `main` branch, linked directly to its raw contents.
-
-## Root
-
-* [Sims3.sln](https://raw.githubusercontent.com/a-from-the-south/sources/main/Sims3.sln)
-* [Sims3WorkshopSDK.sln](https://raw.githubusercontent.com/a-from-the-south/sources/main/Sims3WorkshopSDK.sln)
 
 ## Sims3
 
@@ -281,3 +273,475 @@ Every repository file on the `main` branch, linked directly to its raw contents.
 ### Sims3WorkshopSDK/Properties
 
 * [AssemblyInfo.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/Sims3WorkshopSDK/Properties/AssemblyInfo.cs)
+
+### TSRWorkshop/Properties
+
+* [AssemblyInfo.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Properties/AssemblyInfo.cs)
+
+### TSRWorkshop/Sims3Workshop
+
+* [Mainform.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Mainform.Designer.cs)
+* [Mainform.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Mainform.cs)
+* [Mainform.resources](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Mainform.resources)
+
+#### TSRWorkshop/Sims3Workshop/Control
+
+* [RtfColor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Control/RtfColor.cs)
+* [WelcomeControl.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Control/WelcomeControl.cs)
+
+#### TSRWorkshop/Sims3Workshop/Data
+
+* [Age.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Data/Age.cs)
+* [Gender.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Data/Gender.cs)
+* [ProjectType.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Data/ProjectType.cs)
+* [PropertyBag.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Data/PropertyBag.cs)
+* [WorkshopProject.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Data/WorkshopProject.cs)
+
+#### TSRWorkshop/Sims3Workshop/Dialogs
+
+* [JazzLoader.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Dialogs/JazzLoader.Designer.cs)
+* [JazzLoader.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Dialogs/JazzLoader.cs)
+* [Splash.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Dialogs/Splash.Designer.cs)
+* [Splash.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Dialogs/Splash.cs)
+
+#### TSRWorkshop/Sims3Workshop/Preferences
+
+* [PluginDirectory.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Preferences/PluginDirectory.cs)
+* [PluginDirectoryEntry.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Preferences/PluginDirectoryEntry.cs)
+
+#### TSRWorkshop/Sims3Workshop/Properties
+
+* [Settings.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Properties/Settings.Designer.cs)
+* [Settings.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Sims3Workshop/Properties/Settings.cs)
+
+#### TSRWorkshop/Skybound/VisualTips
+
+* [NotifyError.png](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Skybound/VisualTips/NotifyError.png)
+* [NotifyInformation.png](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Skybound/VisualTips/NotifyInformation.png)
+* [NotifyWarning.png](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Skybound/VisualTips/NotifyWarning.png)
+* [VisualTipProvider.bmp](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Skybound/VisualTips/VisualTipProvider.bmp)
+* [VisualTipProvider.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/Skybound/VisualTips/VisualTipProvider.cs)
+
+### TSRWorkshop/ns0
+
+* [Attribute5.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns0/Attribute5.cs)
+* [BlueprintModelControl.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns0/BlueprintModelControl.cs)
+* [BuildItemModelControl.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns0/BuildItemModelControl.cs)
+* [Class206.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns0/Class206.cs)
+* [Class5.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns0/Class5.cs)
+* [Class77.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns0/Class77.cs)
+* [Control11.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns0/Control11.cs)
+* [Control12.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns0/Control12.cs)
+* [Interface14.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns0/Interface14.cs)
+* [Interface5.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns0/Interface5.cs)
+* [UVMapEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns0/UVMapEditor.Designer.cs)
+* [UVMapEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns0/UVMapEditor.cs)
+* [VerticesEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns0/VerticesEditor.Designer.cs)
+* [VerticesEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns0/VerticesEditor.cs)
+
+### TSRWorkshop/ns1
+
+* [Attribute1.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns1/Attribute1.cs)
+* [Attribute17.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns1/Attribute17.cs)
+* [Class0.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns1/Class0.cs)
+* [Class100.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns1/Class100.cs)
+* [Class11.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns1/Class11.cs)
+* [Class136.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns1/Class136.cs)
+* [Class89.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns1/Class89.cs)
+* [Class97.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns1/Class97.cs)
+* [Enum26.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns1/Enum26.cs)
+* [Enum30.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns1/Enum30.cs)
+* [Interface12.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns1/Interface12.cs)
+* [JointSelector.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns1/JointSelector.Designer.cs)
+* [JointSelector.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns1/JointSelector.cs)
+
+### TSRWorkshop/ns10
+
+* [AddEditVRTFEntry.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/AddEditVRTFEntry.Designer.cs)
+* [AddEditVRTFEntry.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/AddEditVRTFEntry.cs)
+* [CaspModelControl.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/CaspModelControl.cs)
+* [Class112.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/Class112.cs)
+* [Class123.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/Class123.cs)
+* [Class152.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/Class152.cs)
+* [Class169.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/Class169.cs)
+* [Class175.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/Class175.cs)
+* [Class176.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/Class176.cs)
+* [Class209.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/Class209.cs)
+* [Class32.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/Class32.cs)
+* [Class34.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/Class34.cs)
+* [Control2.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/Control2.cs)
+* [CreatorDetailsForm.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/CreatorDetailsForm.Designer.cs)
+* [CreatorDetailsForm.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/CreatorDetailsForm.cs)
+* [Enum12.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/Enum12.cs)
+* [Enum27.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/Enum27.cs)
+* [Enum32.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/Enum32.cs)
+* [Exception0.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/Exception0.cs)
+* [GenericValueListEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/GenericValueListEditor.Designer.cs)
+* [GenericValueListEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/GenericValueListEditor.cs)
+* [Interface11.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/Interface11.cs)
+* [LiteEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/LiteEditor.Designer.cs)
+* [LiteEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/LiteEditor.cs)
+* [PluginList.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/PluginList.cs)
+* [RenumberDialog.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/RenumberDialog.Designer.cs)
+* [RenumberDialog.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns10/RenumberDialog.cs)
+
+### TSRWorkshop/ns11
+
+* [Class125.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/Class125.cs)
+* [Class126.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/Class126.cs)
+* [Class144.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/Class144.cs)
+* [Class41.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/Class41.cs)
+* [Class82.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/Class82.cs)
+* [Class88.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/Class88.cs)
+* [Control6.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/Control6.cs)
+* [Delegate4.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/Delegate4.cs)
+* [Delegate9.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/Delegate9.cs)
+* [Enum21.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/Enum21.cs)
+* [Enum29.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/Enum29.cs)
+* [Enum35.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/Enum35.cs)
+* [EventArgs9.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/EventArgs9.cs)
+* [FootprintEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/FootprintEditor.Designer.cs)
+* [FootprintEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/FootprintEditor.cs)
+* [MultiPartCaspFilePicker.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/MultiPartCaspFilePicker.Designer.cs)
+* [MultiPartCaspFilePicker.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/MultiPartCaspFilePicker.cs)
+* [ProjectInfo.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/ProjectInfo.Designer.cs)
+* [ProjectInfo.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/ProjectInfo.cs)
+* [StblEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/StblEditor.Designer.cs)
+* [StblEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns11/StblEditor.cs)
+
+### TSRWorkshop/ns12
+
+* [Class104.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns12/Class104.cs)
+* [Class114.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns12/Class114.cs)
+* [Class119.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns12/Class119.cs)
+* [Class127.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns12/Class127.cs)
+* [Class178.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns12/Class178.cs)
+* [Control1.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns12/Control1.cs)
+* [Delegate19.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns12/Delegate19.cs)
+* [EditorToolBox.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns12/EditorToolBox.cs)
+* [ObjdVersionDialog.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns12/ObjdVersionDialog.Designer.cs)
+* [ObjdVersionDialog.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns12/ObjdVersionDialog.cs)
+
+### TSRWorkshop/ns13
+
+* [Class113.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Class113.cs)
+* [Class129.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Class129.cs)
+* [Class134.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Class134.cs)
+* [Class148.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Class148.cs)
+* [Class156.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Class156.cs)
+* [Class163.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Class163.cs)
+* [Class18.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Class18.cs)
+* [Class184.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Class184.cs)
+* [Class19.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Class19.cs)
+* [Class207.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Class207.cs)
+* [Class57.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Class57.cs)
+* [Class66.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Class66.cs)
+* [ComplateToImageForm.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/ComplateToImageForm.Designer.cs)
+* [ComplateToImageForm.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/ComplateToImageForm.cs)
+* [Control7.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Control7.cs)
+* [Form1.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Form1.Designer.cs)
+* [Form1.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Form1.cs)
+* [Interface9.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/Interface9.cs)
+* [MoveControl.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns13/MoveControl.cs)
+
+### TSRWorkshop/ns14
+
+* [AboutBox.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/AboutBox.Designer.cs)
+* [AboutBox.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/AboutBox.cs)
+* [AskAllowInternetDialog.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/AskAllowInternetDialog.Designer.cs)
+* [AskAllowInternetDialog.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/AskAllowInternetDialog.cs)
+* [Attribute0.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/Attribute0.cs)
+* [Attribute11.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/Attribute11.cs)
+* [Attribute4.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/Attribute4.cs)
+* [AutoBoneAssigment.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/AutoBoneAssigment.Designer.cs)
+* [AutoBoneAssigment.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/AutoBoneAssigment.cs)
+* [Class135.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/Class135.cs)
+* [Class137.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/Class137.cs)
+* [Class179.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/Class179.cs)
+* [Class182.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/Class182.cs)
+* [Class205.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/Class205.cs)
+* [Class211.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/Class211.cs)
+* [Class42.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/Class42.cs)
+* [Class62.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/Class62.cs)
+* [Class99.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/Class99.cs)
+* [Interface1.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/Interface1.cs)
+* [Interface2.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/Interface2.cs)
+* [MATDEntrySelector.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/MATDEntrySelector.Designer.cs)
+* [MATDEntrySelector.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/MATDEntrySelector.cs)
+* [SelectionControl.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns14/SelectionControl.cs)
+
+### TSRWorkshop/ns15
+
+* [Class120.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns15/Class120.cs)
+* [Class215.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns15/Class215.cs)
+* [Class27.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns15/Class27.cs)
+* [Class33.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns15/Class33.cs)
+* [Control13.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns15/Control13.cs)
+* [Control3.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns15/Control3.cs)
+* [Control4.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns15/Control4.cs)
+* [EventArgs8.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns15/EventArgs8.cs)
+* [PreferencesForm.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns15/PreferencesForm.Designer.cs)
+* [PreferencesForm.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns15/PreferencesForm.cs)
+* [WallmaskControls.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns15/WallmaskControls.cs)
+
+### TSRWorkshop/ns16
+
+* [Class142.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/Class142.cs)
+* [Class183.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/Class183.cs)
+* [Class185.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/Class185.cs)
+* [Class31.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/Class31.cs)
+* [Class43.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/Class43.cs)
+* [Class54.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/Class54.cs)
+* [Class69.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/Class69.cs)
+* [Class76.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/Class76.cs)
+* [Delegate35.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/Delegate35.cs)
+* [Enum18.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/Enum18.cs)
+* [Enum25.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/Enum25.cs)
+* [GenerateWallmask.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/GenerateWallmask.Designer.cs)
+* [GenerateWallmask.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/GenerateWallmask.cs)
+* [ImageEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/ImageEditor.Designer.cs)
+* [ImageEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/ImageEditor.cs)
+* [Interface13.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/Interface13.cs)
+* [Interface3.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/Interface3.cs)
+* [MeshEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/MeshEditor.cs)
+* [Struct23.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns16/Struct23.cs)
+
+### TSRWorkshop/ns17
+
+* [Attribute8.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Attribute8.cs)
+* [Class101.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Class101.cs)
+* [Class124.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Class124.cs)
+* [Class143.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Class143.cs)
+* [Class161.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Class161.cs)
+* [Class173.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Class173.cs)
+* [Class181.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Class181.cs)
+* [Class186.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Class186.cs)
+* [Class28.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Class28.cs)
+* [Class38.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Class38.cs)
+* [Class59.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Class59.cs)
+* [Class64.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Class64.cs)
+* [Class83.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Class83.cs)
+* [Control0.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Control0.cs)
+* [Enum11.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Enum11.cs)
+* [Enum31.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/Enum31.cs)
+* [PropertiesForm.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns17/PropertiesForm.cs)
+
+### TSRWorkshop/ns18
+
+* [Attribute3.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/Attribute3.cs)
+* [Attribute6.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/Attribute6.cs)
+* [BoneAssigmentEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/BoneAssigmentEditor.Designer.cs)
+* [BoneAssigmentEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/BoneAssigmentEditor.cs)
+* [Class138.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/Class138.cs)
+* [Class141.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/Class141.cs)
+* [Class164.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/Class164.cs)
+* [Class199.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/Class199.cs)
+* [Class63.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/Class63.cs)
+* [Class68.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/Class68.cs)
+* [Class86.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/Class86.cs)
+* [Delegate5.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/Delegate5.cs)
+* [Enum33.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/Enum33.cs)
+* [ObjectToolWindow.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/ObjectToolWindow.Designer.cs)
+* [ObjectToolWindow.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/ObjectToolWindow.cs)
+* [SymbolToolWindow.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/SymbolToolWindow.Designer.cs)
+* [SymbolToolWindow.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns18/SymbolToolWindow.cs)
+
+### TSRWorkshop/ns19
+
+* [Class162.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns19/Class162.cs)
+* [Class200.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns19/Class200.cs)
+* [Enum23.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns19/Enum23.cs)
+* [EventArgs10.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns19/EventArgs10.cs)
+* [GeostateSelector.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns19/GeostateSelector.Designer.cs)
+* [GeostateSelector.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns19/GeostateSelector.cs)
+* [PatternBrowseDialog.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns19/PatternBrowseDialog.Designer.cs)
+* [PatternBrowseDialog.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns19/PatternBrowseDialog.cs)
+* [PickMLOD.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns19/PickMLOD.Designer.cs)
+* [PickMLOD.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns19/PickMLOD.cs)
+* [Wizard.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns19/Wizard.cs)
+
+### TSRWorkshop/ns2
+
+* [Attribute16.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns2/Attribute16.cs)
+* [Class1.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns2/Class1.cs)
+* [Class111.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns2/Class111.cs)
+* [Class121.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns2/Class121.cs)
+* [Class128.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns2/Class128.cs)
+* [Class26.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns2/Class26.cs)
+* [Class78.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns2/Class78.cs)
+* [Delegate13.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns2/Delegate13.cs)
+* [Interface6.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns2/Interface6.cs)
+* [NewProjectForm.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns2/NewProjectForm.Designer.cs)
+* [NewProjectForm.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns2/NewProjectForm.cs)
+
+### TSRWorkshop/ns20
+
+* [Attribute10.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns20/Attribute10.cs)
+* [Class149.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns20/Class149.cs)
+* [Class180.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns20/Class180.cs)
+* [Class198.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns20/Class198.cs)
+* [Class208.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns20/Class208.cs)
+* [Enum24.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns20/Enum24.cs)
+* [EventArgs11.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns20/EventArgs11.cs)
+* [PositionToMatrix.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns20/PositionToMatrix.Designer.cs)
+* [PositionToMatrix.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns20/PositionToMatrix.cs)
+* [SlotEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns20/SlotEditor.Designer.cs)
+* [SlotEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns20/SlotEditor.cs)
+
+### TSRWorkshop/ns21
+
+* [Class133.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns21/Class133.cs)
+* [Class187.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns21/Class187.cs)
+* [Class51.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns21/Class51.cs)
+* [Class79.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns21/Class79.cs)
+* [Delegate21.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns21/Delegate21.cs)
+* [Delegate8.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns21/Delegate8.cs)
+* [Enum28.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns21/Enum28.cs)
+* [EventArgs7.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns21/EventArgs7.cs)
+* [GeneralProgress.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns21/GeneralProgress.Designer.cs)
+* [GeneralProgress.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns21/GeneralProgress.cs)
+* [KonamiCode.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns21/KonamiCode.Designer.cs)
+* [KonamiCode.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns21/KonamiCode.cs)
+
+### TSRWorkshop/ns3
+
+* [Attribute2.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Attribute2.cs)
+* [Class105.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Class105.cs)
+* [Class151.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Class151.cs)
+* [Class17.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Class17.cs)
+* [Class2.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Class2.cs)
+* [Class201.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Class201.cs)
+* [Class37.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Class37.cs)
+* [Class40.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Class40.cs)
+* [Class53.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Class53.cs)
+* [Class75.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Class75.cs)
+* [Control5.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Control5.cs)
+* [DropdownSlider.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/DropdownSlider.cs)
+* [Enum34.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Enum34.cs)
+* [EventArgs2.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/EventArgs2.cs)
+* [Form2.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Form2.Designer.cs)
+* [Form2.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Form2.cs)
+* [Form3.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Form3.Designer.cs)
+* [Form3.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/Form3.cs)
+* [PatternEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/PatternEditor.Designer.cs)
+* [PatternEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/PatternEditor.cs)
+* [ResourceSelector.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/ResourceSelector.Designer.cs)
+* [ResourceSelector.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/ResourceSelector.cs)
+* [TransformationEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/TransformationEditor.Designer.cs)
+* [TransformationEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns3/TransformationEditor.cs)
+
+### TSRWorkshop/ns4
+
+* [AutoBoneAssigmentIndexChooser.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns4/AutoBoneAssigmentIndexChooser.Designer.cs)
+* [AutoBoneAssigmentIndexChooser.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns4/AutoBoneAssigmentIndexChooser.cs)
+* [Class177.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns4/Class177.cs)
+* [Class3.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns4/Class3.cs)
+* [Class30.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns4/Class30.cs)
+* [Class6.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns4/Class6.cs)
+* [Class70.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns4/Class70.cs)
+* [Class73.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns4/Class73.cs)
+* [Delegate33.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns4/Delegate33.cs)
+* [ObjdModelControl.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns4/ObjdModelControl.cs)
+* [TextureStepEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns4/TextureStepEditor.Designer.cs)
+* [TextureStepEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns4/TextureStepEditor.cs)
+
+### TSRWorkshop/ns5
+
+* [Attribute13.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns5/Attribute13.cs)
+* [Class122.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns5/Class122.cs)
+* [Class214.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns5/Class214.cs)
+* [Class29.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns5/Class29.cs)
+* [Class39.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns5/Class39.cs)
+* [Class4.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns5/Class4.cs)
+* [Class67.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns5/Class67.cs)
+* [Delegate36.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns5/Delegate36.cs)
+* [Enum13.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns5/Enum13.cs)
+
+### TSRWorkshop/ns6
+
+* [Attribute12.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/Attribute12.cs)
+* [Attribute9.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/Attribute9.cs)
+* [BitmapImportDialog.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/BitmapImportDialog.Designer.cs)
+* [BitmapImportDialog.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/BitmapImportDialog.cs)
+* [CASPartSelector.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/CASPartSelector.Designer.cs)
+* [CASPartSelector.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/CASPartSelector.cs)
+* [Class140.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/Class140.cs)
+* [Class146.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/Class146.cs)
+* [Class154.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/Class154.cs)
+* [Class210.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/Class210.cs)
+* [Class48.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/Class48.cs)
+* [Class49.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/Class49.cs)
+* [Class7.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/Class7.cs)
+* [Class74.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/Class74.cs)
+* [Class85.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/Class85.cs)
+* [EditorPickForm.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/EditorPickForm.Designer.cs)
+* [EditorPickForm.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/EditorPickForm.cs)
+* [IconFormatDialog.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/IconFormatDialog.Designer.cs)
+* [IconFormatDialog.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/IconFormatDialog.cs)
+* [Interface10.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/Interface10.cs)
+* [MLODEntryEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/MLODEntryEditor.Designer.cs)
+* [MLODEntryEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/MLODEntryEditor.cs)
+* [MaterialEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/MaterialEditor.Designer.cs)
+* [MaterialEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/MaterialEditor.cs)
+* [UpdatesAvailableForm.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/UpdatesAvailableForm.Designer.cs)
+* [UpdatesAvailableForm.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns6/UpdatesAvailableForm.cs)
+
+### TSRWorkshop/ns7
+
+* [Attribute14.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/Attribute14.cs)
+* [Attribute15.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/Attribute15.cs)
+* [BoneWeightControl.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/BoneWeightControl.cs)
+* [Class106.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/Class106.cs)
+* [Class117.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/Class117.cs)
+* [Class145.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/Class145.cs)
+* [Class36.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/Class36.cs)
+* [Class58.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/Class58.cs)
+* [Class8.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/Class8.cs)
+* [Class80.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/Class80.cs)
+* [Class81.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/Class81.cs)
+* [Class87.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/Class87.cs)
+* [ProjectContentsBrowser.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/ProjectContentsBrowser.Designer.cs)
+* [ProjectContentsBrowser.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/ProjectContentsBrowser.cs)
+* [PropEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/PropEditor.Designer.cs)
+* [PropEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns7/PropEditor.cs)
+
+### TSRWorkshop/ns8
+
+* [Class10.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Class10.cs)
+* [Class102.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Class102.cs)
+* [Class115.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Class115.cs)
+* [Class130.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Class130.cs)
+* [Class131.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Class131.cs)
+* [Class132.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Class132.cs)
+* [Class157.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Class157.cs)
+* [Class159.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Class159.cs)
+* [Class212.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Class212.cs)
+* [Class213.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Class213.cs)
+* [Class216.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Class216.cs)
+* [Class55.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Class55.cs)
+* [Class61.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Class61.cs)
+* [Class65.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Class65.cs)
+* [Class9.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Class9.cs)
+* [EventArgs3.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/EventArgs3.cs)
+* [InputForm.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/InputForm.Designer.cs)
+* [InputForm.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/InputForm.cs)
+* [Interface8.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns8/Interface8.cs)
+
+### TSRWorkshop/ns9
+
+* [Attribute7.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/Attribute7.cs)
+* [BuildToolWindow.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/BuildToolWindow.Designer.cs)
+* [BuildToolWindow.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/BuildToolWindow.cs)
+* [Class103.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/Class103.cs)
+* [Class147.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/Class147.cs)
+* [Class174.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/Class174.cs)
+* [Class25.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/Class25.cs)
+* [Class52.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/Class52.cs)
+* [Class60.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/Class60.cs)
+* [ContainerSlotEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/ContainerSlotEditor.Designer.cs)
+* [ContainerSlotEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/ContainerSlotEditor.cs)
+* [Control14.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/Control14.cs)
+* [Delegate34.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/Delegate34.cs)
+* [RotateControl.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/RotateControl.cs)
+* [SkinEntryEditor.Designer.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/SkinEntryEditor.Designer.cs)
+* [SkinEntryEditor.cs](https://raw.githubusercontent.com/a-from-the-south/sources/main/TSRWorkshop/ns9/SkinEntryEditor.cs)
